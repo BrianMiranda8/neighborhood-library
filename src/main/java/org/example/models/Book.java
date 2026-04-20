@@ -1,4 +1,4 @@
-package org.example;
+package org.example.models;
 
 public class Book {
 
@@ -59,7 +59,7 @@ public class Book {
     }
 
     public boolean isCheckedOut() {
-        return isCheckedOut;
+        return this.checkedOutTo != null;
     }
 
     public void setCheckedOut(boolean checkedOut) {

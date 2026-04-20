@@ -7,7 +7,7 @@ public class UI {
     public static String getUserInput(String msg){
         IO.print(msg);
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextLine();
+        return scanner.nextLine().trim().strip().toLowerCase();
     }
 
     public static void setMessage(String msg,boolean sameLine){

@@ -20,7 +20,8 @@ public class Main {
 
             switch(userInput){
                 case "1" -> library.showAvailableBooks();
-                case "2"-> library.showCheckedOutBooks();
+                case "2" -> library.showCheckedOutBooks();
+                case "3" -> library.checkOutBook();
                 case "5" -> endProgram();
             }
 
