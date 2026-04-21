@@ -11,6 +11,6 @@ public interface BookRepository {
     void updateBook(String isbn, Book book);
     void checkOutBook(String isbn, String user);
     void checkOUtBookByTitle(String title, String user);
-    List<Book> showBooks();
+    List<Book> listBooks();
 
 }

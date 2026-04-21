@@ -4,9 +4,9 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     private static boolean runFlag = true;
+
     static void main() {
 
-      ;
         Library library = new Library();
         while (runFlag){
             UI.setMessage("Use the number to make your selection", false);
@@ -14,6 +14,8 @@ public class Main {
           String userInput =   UI.getUserInput("Available Choices: \n" +
                     "1) Show Available Books \n" +
                     "2) Show Checked Out Books \n" +
+                    "3) Checkout Books \n" +
+
                   "5) Exit \n" +
                   "Make Selection: "
             ).toLowerCase();

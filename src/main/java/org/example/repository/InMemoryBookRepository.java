@@ -79,7 +79,7 @@ public class InMemoryBookRepository implements BookRepository {
     }
 
     @Override
-    public List<Book> showBooks() {
+    public List<Book> listBooks() {
         return inventory;
     }
 
